@@ -4,7 +4,7 @@ title:      Image Generation Techniques
 subtitle:   how image generation models work
 date:       2024-05-12
 author:     JX
-header-img: img/green_p.png
+header-img: img/purple.png
 catalog: true
 tags:
     - Image Generation

@@ -8,7 +8,6 @@ header-img: img/green_p.png
 catalog: true
 tags:
     - Option
-    - Greek Letters
 ---
 
 >Understand How The Greek Letters in Option Work
