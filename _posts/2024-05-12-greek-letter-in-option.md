@@ -14,7 +14,7 @@ tags:
 >Understand How The Greek Letters in Option Work
 
 
-### 5个希腊字母的含义
+# 解读Options中的5个希腊字母
 
 | Greek Letter | Meaning |
 | --- | --- |
