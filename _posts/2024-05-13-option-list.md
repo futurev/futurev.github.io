@@ -39,8 +39,9 @@ list from futu
        . Defination: long stock + short call
        . Analysis
 
-           <img width="316" alt="covered_call" src="https://github.com/futurev/futurev.github.io/assets/18621736/9124b479-8042-4869-a799-4190534a7fc9">
-       <img width="327" alt="Screen Shot 2024-05-13 at 2 35 16 PM" src="https://github.com/futurev/futurev.github.io/assets/18621736/b11ffa75-4c53-4f1d-b1a4-ebccd1c79a29">
+   <img width="316" alt="covered_call" src="https://github.com/futurev/futurev.github.io/assets/18621736/9124b479-8042-4869-a799-4190534a7fc9">
+   
+   <img width="327" alt="Screen Shot 2024-05-13 at 2 35 16 PM" src="https://github.com/futurev/futurev.github.io/assets/18621736/b11ffa75-4c53-4f1d-b1a4-ebccd1c79a29">
 
    
     
@@ -48,11 +49,11 @@ list from futu
        . Defination:
        . Analysis
    
-            <img width="316" alt="protective_put" src="https://github.com/futurev/futurev.github.io/assets/18621736/8c6823be-6d78-4b72-9622-a708127feece">
+   <img width="316" alt="protective_put" src="https://github.com/futurev/futurev.github.io/assets/18621736/8c6823be-6d78-4b72-9622-a708127feece">
 
            
 
-3. Vertical Spread
+4. Vertical Spread
 
 <img width="327" alt="Screen Shot 2024-05-13 at 2 35 27 PM" src="https://github.com/futurev/futurev.github.io/assets/18621736/a29ff350-3e04-4c10-b1d9-373cbab9ba4c">
 
