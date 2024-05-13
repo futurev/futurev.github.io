@@ -1,3 +1,19 @@
+---
+layout:     post
+title:      Understand Greek Letters in Option
+subtitle:   Learn 5 Greek Letters: Delta, Gamma, Theta, Vega and Rho
+date:       2024-05-12
+author:     JX
+header-img: img/green_p.png
+catalog: true
+tags:
+    - Option
+    - Greek Letters
+---
+
+>Understand How The Greek Letters in Option Work
+
+
 ### 5个希腊字母的含义
 
 | Greek Letter | Meaning |
