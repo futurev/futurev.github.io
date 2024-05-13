@@ -35,14 +35,15 @@ list from futu
     
 2. Covered Stock
 
+ <img width="327" alt="Screen Shot 2024-05-13 at 2 35 16 PM" src="https://github.com/futurev/futurev.github.io/assets/18621736/b11ffa75-4c53-4f1d-b1a4-ebccd1c79a29">
+
+  
     2.1 Covered Call
        . Defination: long stock + short call
        . Analysis
 
    <img width="316" alt="covered_call" src="https://github.com/futurev/futurev.github.io/assets/18621736/9124b479-8042-4869-a799-4190534a7fc9">
    
-   <img width="327" alt="Screen Shot 2024-05-13 at 2 35 16 PM" src="https://github.com/futurev/futurev.github.io/assets/18621736/b11ffa75-4c53-4f1d-b1a4-ebccd1c79a29">
-
    
     
     2.2 Protective Put
