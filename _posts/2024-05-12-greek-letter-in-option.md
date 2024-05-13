@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Understand Greek Letters in Option
-subtitle:   Learn 5 Greek Letters: Delta, Gamma, Theta, Vega and Rho
+subtitle:   Learn 5 Greek Letters(Delta, Gamma, Theta, Vega, Rho)
 date:       2024-05-12
 author:     JX
 header-img: img/green_p.png
