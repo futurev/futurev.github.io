@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Unitree, ChatGPT4o @OpenAI, GME/AMC@roaringcat
+title:      Unitree, ChatGPT4o @OpenAI, GME/AMC@roaring kitty
 subtitle:   Short News Today
 date:       2024-05-13
 author:     JX
@@ -10,7 +10,7 @@ tags:
     - Short News
 ---
 
->Unitree, ChatGPT4o@OpenAI, GME/AMC@roaringcat
+>Unitree, ChatGPT4o@OpenAI, GME/AMC@roaring kitty
 
 # 05/13/2024 Short News
 
