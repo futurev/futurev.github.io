@@ -17,16 +17,13 @@ tags:
 
    1. Call vs Put
    
-        |         | Buyer     |   Seller   |
-        |---------|-----------|-----------|
-        | Call    |   To buy  |   To sell   |
-        | Put     |   To sell |   To buy   |
+        |         | Buyer     |   Seller   | ITM       | OTM     |
+        |---------|-----------|----------- |-----------|-----------|
+        | Call    |    buy  |    sell  | strike < stock price | strike > stock price|
+        | Put     |    sell |    buy   | strike > stock price | strike < stock price|
 
-       Call: buyer to buy and seller to sell at strike price;
        
-       Put: buyer to sell and seller to buy at strike price;
-       
-       - seller to get premium, and expect **_OTM_** at expire date, ie.
+       - seller to get premium, expect **_OTM_** at expire date, ie.
         
            strike price > stock price for ${\color{blue}Call}$
            
@@ -39,6 +36,14 @@ tags:
            strike price > stock price for ${\color{purple}Put}$     
     
    2. five greek letters in Option
+   
+   | Greek Letter | Meaning |
+    | --- | --- |
+    | Delta | The impact of a $1 change in the stock price on the option price |
+    | Gamma | The change in delta caused by a $1 change in the stock price |
+    | Theta | The rate at which the time value of an option decays |
+    | Vega | The change in option price due to a change in implied volatility |
+    | Rho | The sensitivity of an option's price to changes in the risk-free interest rate |
         
 
 ## Strategy
