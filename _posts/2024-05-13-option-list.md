@@ -67,15 +67,15 @@ list from futubull
         | Long Put       | Strike Price - Premium   | Premium Paid           | Strike Price - Premium| Bearish speculation, hedging a long position            |
         | Short Put      | Premium Received         | Strike Price - Premium | Strike Price - Premium| Bullish speculation, generating income                  |
         
-        - long call vs short put: stock price in up trend
-        - short call vs long put: stock price in down trend
+        - long call vs short put: bullish positions, stock price in up trend
+        - short call vs long put: bearish positions, stock price in down trend
         - use cases for each scenario
 
-            Long Call: Used when an investor expects stock price to increase significantly. It allows them to profit from the price appreciation with limited risk.
+            Long Call: Used when expecting stock price to increase significantly. It allows them to profit from the price appreciation with limited risk.
             
-            Short Call: Used when an investor expects stock price to decrease or remain stagnant. It allows them to collect premium income while capping their potential profit and risking unlimited losses if stock price rises significantly.
+            Short Call: Used when expecting stock price to decrease or remain stagnant. It allows them to collect premium income while capping their potential profit and risking unlimited losses if stock price rises significantly.
             
-            Long Put: Used when an investor expects stock price to decrease significantly. It allows them to profit from the price decline with limited risk.
+            Long Put: Used when expecting stock price to decrease significantly. It allows them to profit from the price decline with limited risk.
             
             Short Put: Used when an investor is bullish on the underlying asset and believes the price will remain stable or increase. It allows them to collect premium income while risking potential losses if stock price decreases significantly below the strike price.
     
