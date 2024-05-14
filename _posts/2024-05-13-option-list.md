@@ -18,14 +18,13 @@ tags:
    1. Call vs Put
        - sell to get premium, and expect **_OTM_** at expire date, ie.
         
-           strike price > stock price for call
+           strike price > stock price for $${\color{red}Call}$$
+           strike price < stock price for $${\color{purple}Put}$$ 
            
-           strike price < stock price for put
        - buy to get profit, expect **_ITM_** at expire date, ie.
        
-           strike price < stock price for $${\color{red}call}$$
-           
-           strike price > stock price for put       
+           strike price < stock price for $${\color{red}Call}$$
+           strike price > stock price for $${\color{purple}Put}$$        
     
    2. five greek letters in Option
         
