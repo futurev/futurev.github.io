@@ -16,13 +16,23 @@ tags:
 ## Option Basics
 
    1. Call vs Put
-       - sell to get premium, and expect **_OTM_** at expire date, ie.
+   
+        |         | Buyer     |   Seller   |
+        |---------|-----------|-----------|
+        | Call    |   To buy  |   To sell   |
+        | Put     |   To sell |   To buy   |
+
+       Call: buyer to buy and seller to sell at strike price;
+       
+       Put: buyer to sell and seller to buy at strike price;
+       
+       - seller to get premium, and expect **_OTM_** at expire date, ie.
         
            strike price > stock price for ${\color{blue}Call}$
            
            strike price < stock price for ${\color{purple}Put}$
            
-       - buy to get profit, expect **_ITM_** at expire date, ie.
+       - buyer to get profit, expect **_ITM_** at expire date, ie.
        
            strike price < stock price for ${\color{blue}Call}$
            
@@ -37,14 +47,14 @@ list from futubull
 
 1. Single Option
     - Definition
-         buy or sell call/put option, including four types:
-        - long call vs short put
-        - short call vs long put
+         buy or sell call/put option
 
       <img width="323" alt="Screen Shot 2024-05-13 at 1 43 58 PM" src="https://github.com/futurev/futurev.github.io/assets/18621736/f2dad543-7900-4a4d-a49f-02e342134763">
     
    - Analysis
-   
+        four scenarios:
+        - long call vs short put: stock in up trend, 
+        - short call vs long put: 
     
 2. Covered Stock
 
