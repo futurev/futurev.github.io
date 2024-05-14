@@ -54,12 +54,20 @@ list from futubull
 
 1. Single Option
     - Definition
-         buy or sell call/put option
+    
+      buy or sell call/put option
 
       <img width="323" alt="Screen Shot 2024-05-13 at 1 43 58 PM" src="https://github.com/futurev/futurev.github.io/assets/18621736/f2dad543-7900-4a4d-a49f-02e342134763">
     
    - Analysis
-        four scenarios:
+        | Scenario       | Max Profit               | Risk                   | Breakeven Point       | Use Cases                                               |
+        |----------------|--------------------------|------------------------|-----------------------|---------------------------------------------------------|
+        | Long Call      | Unlimited                | Premium Paid           | Strike Price + Premium| Bullish speculation, hedging a short position           |
+        | Short Call     | Premium Received         | Unlimited              | Strike Price + Premium| Bearish speculation, generating income                  |
+        | Long Put       | Strike Price - Premium   | Premium Paid           | Strike Price - Premium| Bearish speculation, hedging a long position            |
+        | Short Put      | Premium Received         | Strike Price - Premium | Strike Price - Premium| Bullish speculation, generating income                  |
+        
+        
         - long call vs short put: stock in up trend, 
         - short call vs long put: 
     
