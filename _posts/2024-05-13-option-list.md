@@ -60,12 +60,12 @@ list from futubull
     
    - Analysis
    
-        | Scenario       | Max Profit               | Risk                   | Breakeven Point       | Use Cases                                               |
-        |----------------|--------------------------|------------------------|-----------------------|---------------------------------------------------------|
-        | Long Call      | Unlimited                | Premium Paid           | Strike Price + Premium| Bullish speculation, hedging a short position           |
-        | Short Call     | Premium Received         | Unlimited              | Strike Price + Premium| Bearish speculation, generating income                  |
-        | Long Put       | Strike Price - Premium   | Premium Paid           | Strike Price - Premium| Bearish speculation, hedging a long position            |
-        | Short Put      | Premium Received         | Strike Price - Premium | Strike Price - Premium| Bullish speculation, generating income                  |
+        | Scenario       | Action       | Max Profit               | Risk                   | Breakeven Point       | Use Cases                                               |
+        |----------------|--------------|--------------------------|------------------------|-----------------------|---------------------------------------------------------|
+        | Long Call      | buy      | Unlimited                | Premium Paid           | Strike Price + Premium| Bullish speculation, hedging a short position           |
+        | Short Call     | sell      | Premium Received         | Unlimited              | Strike Price + Premium| Bearish speculation, generating income                  |
+        | Long Put       | sell      | Strike Price - Premium   | Premium Paid           | Strike Price - Premium| Bearish speculation, hedging a long position            |
+        | Short Put      | buy      | Premium Received         | Strike Price - Premium | Strike Price - Premium| Bullish speculation, generating income                  |
         
         - long call vs short put: bullish positions, stock price in up trend
         - short call vs long put: bearish positions, stock price in down trend
