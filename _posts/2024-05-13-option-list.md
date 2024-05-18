@@ -164,8 +164,8 @@ list from futubull
    - 3.1 bull spread
         - Bull Put Spread
             - **_Definition_**: 
-                sell OTM Put, buy further OTM Put
-                Put, higher strike, higher pricing, 
+                sell OTM Put (strike<stock price), buy further OTM Put(<<stock price), premium received upfront
+                Put, higher strike, higher pricing
                 Put is OTM, if strike < current stock price 
                  
             - **_Example_**: 
@@ -184,7 +184,7 @@ list from futubull
 
         - Bull Call Spread
             - **_Definition_**: 
-                buy OTM Put, buy further OTM Put
+                buy OTM call, buy further OTM call
                 Put, higher strike, higher pricing, 
                 Put is OTM, if strike < current stock price 
                  
