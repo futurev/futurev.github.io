@@ -127,7 +127,14 @@ list from futubull
             Long Put: Used when expecting stock price to decrease significantly. It allows them to profit from the price decline with limited risk.
             
             Short Put: Used when an investor is bullish on the underlying asset and believes the price will remain stable or increase. It allows them to collect premium income while risking potential losses if stock price decreases significantly below the strike price.
-    
+            Naked put：（vs covered put)
+            希望股价不会下跌到strike位置，低于strike，则需要买入，股票继续下跌则会承受更多损失。
+            当长期看好，希望在低价位买入股票的情况下可用
+            需要保证金，0.25 ~ 0.3，到期日需要全额保证金
+            占用资金比较多，买入后下跌的风险比较高，所以vertical spread应该更好，           
+            选择strike，可以用倍数均方差，参考技术形态，
+            开盘的半小时/1小时内，option价格比较贵，sell时机好
+            
 2. Covered Stock
 
  <img width="327" alt="Screen Shot 2024-05-13 at 2 35 16 PM" src="https://github.com/futurev/futurev.github.io/assets/18621736/b11ffa75-4c53-4f1d-b1a4-ebccd1c79a29">
@@ -150,9 +157,18 @@ list from futubull
    <img width="316" alt="covered_call" src="https://github.com/futurev/futurev.github.io/assets/18621736/9124b479-8042-4869-a799-4190534a7fc9">   
    
    - 2.2 Protective Put
-       - Definition:
-       - Analysis
-   
+       - Definition
+       手中有很多仓位，但是不想卖出，为防止市场大跌或者不确定事情发生，临时买入put。 买入put数量，试图使delta=0
+  
+       - Analysis           
+             ITM，贵，OTM 便宜但是容易到期失效
+       example：
+            持有100股，delta=100， 需要获得put使得delta=-100，
+            - 买入2个delta=0.5 当前价格ATM的put
+            - 买入5个delta=0.2 OTM的put，以可能跌到的价钱（低于当前价）为strike
+            - 不同strike的效果差异很大，假设当前SPY=340， 持股1000， 分析strike=320/340/360 3种情况，股价=320情况，profit=-31000/6900/1800，股价=360，profit=8900/7000/-6100。
+            
+            - ratio vertical put spread >> vertical put spread >> put
    <img width="316" alt="protective_put" src="https://github.com/futurev/futurev.github.io/assets/18621736/8c6823be-6d78-4b72-9622-a708127feece">
 
            
@@ -162,9 +178,9 @@ list from futubull
 <img width="327" alt="Screen Shot 2024-05-13 at 2 35 27 PM" src="https://github.com/futurev/futurev.github.io/assets/18621736/a29ff350-3e04-4c10-b1d9-373cbab9ba4c">
     
    - 3.1 bull spread
-        - Bull Put Spread
+        - Bull Put Spread （sell put spread, credit put spread）
             - **_Definition_**: 
-                sell OTM Put (strike<stock price), buy further OTM Put(<<stock price), premium received upfront
+                sell OTM Put (strike1<stock price), buy further OTM Put(strike2<strike1<stock price), premium received upfront, 需要保证金（两个strike的价差),防范意外下跌(stock<strike2-premium),会出现损失。最大利润为premium,有需要买入股票的可能（strike2<stock<strike1)
                 Put, higher strike, higher pricing
                 Put is OTM, if strike < current stock price 
                  
@@ -179,14 +195,15 @@ list from futubull
                 The maximum loss occurs if the price of the underlying stock is below the lower strike price at expiration. 
                 In this case, both options would be exercised. The investor would be obligated to buy the stock at the higher strike price and sell it at the lower strike price. 
                 The difference in strike prices is $45 - $40 = $5. However, the net premium received is $1. So, the maximum loss is $5 - $1 = $4.  
-            - **_Breakeven Point_**: 
+            - **_Break even Point_**: 
                 $43 ($45 higher strike price - $2 net premium received).
 
-        - Bull Call Spread
+        - Bull Call Spread (buy call spread, debit call spread)
             - **_Definition_**: 
-                buy OTM call, buy further OTM call
-                Put, higher strike, higher pricing, 
-                Put is OTM, if strike < current stock price 
+                buy OTM call（strike > stock), sell further OTM call (strike >> stock) 付出premium， 但是无保证金要求， break even：stock price == strike+call premium，股价高于此处才开始盈利
+                buy ITM call(stock=346, strike1=340)，sell OTM call(strike2=360),期望股价不会涨超360            
+                call, lower strike, higher pricing, 
+                call is OTM, if strike > current stock price 
                  
             - **_Example_**: 
                 Underlying Stock: XYZ is trading at $50.
@@ -203,6 +220,12 @@ list from futubull
                 $43 ($45 higher strike price - $2 net premium received).
                 
   - 3.2 bear spread
+      - Bear Call Spread (sell call spread)
+      突然跳空低开，开一个sell call spread，strike设置在前一天收盘价
+      在当天低点，开一个sell put spread，预测会有回弹，可以下跌和上涨两边收益
+      
+      - Bear Put Spread
+      
        - Definition:
        - Analysis
     
